@@ -39,10 +39,6 @@
             return{
                 config:defaultSideBarConfig,
             }
-        },
-        created(){
-            // alert(JSON.stringify(defaultSideBarConfig.menuData[0].icon))
-            console.log(defaultSideBarConfig.menuData[0])
         }
     }
 </script>
